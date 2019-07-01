@@ -1,0 +1,117 @@
+BODY {
+  background: #e2e2e2;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #e2e2e2 1%, #f2f2f2 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #e2e2e2 1%, #f2f2f2 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #e2e2e2 1%, #f2f2f2 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#f2f2f2', GradientType=0);
+  /* IE6-9 */
+  font-family: 'Lato', sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+.logo {
+  background: url("//instagramstatic-a.akamaihd.net/h1/images/shared/shared-assets.png/1e2eddff9a25.png") no-repeat 0 -95px;
+  height: 35px;
+  width: 97px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+#iCard {
+  width: 450px;
+  height: 653px;
+  background: #F3F3F3;
+  margin: 0 auto;
+  -webkit-box-shadow: 10px 20px 30px 1px #C2C2C2;
+  box-shadow: 10px 20px 30px 1px #C2C2C2;
+  margin-top: 3%;
+}
+
+.img {
+  display: inline-block;
+}
+
+.img a {
+  width: 0px;
+  height: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.details {
+  margin: 0 auto;
+  width: 220px;
+  font-weight: bold;
+}
+
+.details h1 {
+  color: #4b4946;
+  margin: 10px;
+  padding: 0px;
+  text-align: center;
+}
+
+.details h2 {
+  font-size: 16px;
+  color: #8a8a8a;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.details h2 a {
+  color: #8a8a8a;
+  text-decoration: none;
+}
+
+.user {
+  margin: 0 auto;
+  width: 150px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.user img {
+  border-radius: 50%;
+}
+
+.count {
+  width: 450px;
+  color: black;
+  font-size: 20px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.count ul {
+  padding: 0px;
+  margin: 0px;
+  margin-left: -42px;
+}
+
+.count ul li {
+  list-style: none;
+  display: inline-block;
+  font-weight: bold;
+  padding-left: 63px;
+}
+
+.count ul li span {
+  display: block;
+  color: #8a8a8a;
+  font-size: 16px;
+}
+
+.footer {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 12px;
+}

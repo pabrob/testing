@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Password</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="instafeed2.js"></script>
+<script type="text/javascript" src="instafeed.js"></script>
+<link rel="stylesheet" type="text/css" href="insta.css">
+</head>
+<body>
+<div id="idnav"></div>
+<div id="iCard">
+  <div class="logo"></div>
+  <div class="user"></div>
+  <div class="details">
+    <h1>Pablo</h1>
+  </div>
+  <div class="count">
+      <ul>
+        <li class="media"><span>Posts</span></li>
+        <li class="followers"><span>Followers</span></li>
+        <li class="following"><span>Following</span></li>
+      </ul>
+    </div>
+  <div class="stats"></div>
+  <div id="instafeed"></div>
+
+  <script>
+      $(function(){
+        $("#idnav").load("menu.html");
+      });
+  </script>
+</div>
+</body>
+</html>   
